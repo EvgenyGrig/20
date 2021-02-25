@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespce std;
+int main (){
+int a,b;
+bool d = false;
+cin >> a >> b;
+if ((a>0) and (b>0) or (a<0) and (b<0)){
+     d=true;
+}
+if (d == true){
+     cout << "true";
+}
+else{
+     cout << "false";
+}
+}
