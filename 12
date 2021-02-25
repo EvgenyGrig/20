@@ -1,0 +1,17 @@
+#include <iostream>
+#include <cmath>
+using namespce std;
+int main (){
+int a,b,c;
+bool d = false;
+cin >> a >> b >> c;
+if ((a+b>=25) and (a+c>=25) and (c+b>=25)){
+     d=true;
+}
+if (d == true){
+     cout << "true";
+}
+else{
+     cout << "false";
+}
+}
